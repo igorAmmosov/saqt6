@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="vopros1">
+	<div  >
+ 	 <h1 class="text-center ">сколько людей живут на земле?</h1>
+ </div>
+ <div class="border otvet1 text-center ">
+ 	<h5>1)7.534.946.657</h5>
+ </div>
+  <div class="border otvet2 text-center">
+ 	<h5>2)7.534.946.658</h5>
+ </div>
+  <div class="border otvet3 text-center" >
+ 	<h5>3)7.534.946.659</h5>
+ </div>
+ <p class="text-right mt-2">Очки: 0</p>
+</div>
+ 
+<div  style="display: none; " class="vopros2">
+	<div >
+ 	 <h1 class="text-center ">2+2*2=?</h1>
+ </div>
+ <div class="border otvet1_1 text-center ">
+ 	<h5>1)8</h5>
+ </div>
+  <div class="border otvet2_1 text-center">
+ 	<h5>2)6</h5>
+ </div>
+  <div class="border otvet3_1 text-center" >
+ 	<h5>3)я тупой </h5>
+ </div>
+ <p class="text-right mt-2">Очки: 10</p>
+</div>
+ 
+
+
+ <div  style="display: none; " class="vopros31">
+	<div >
+ 	 <h1 class="text-center ">где мы живем?</h1>
+ </div>
+ <div class="border otvet1_2 text-center ">
+ 	<h5>1)в жопе мира (якутск)</h5>
+ </div>
+  <div class="border otvet2_2 text-center">
+ 	<h5>2)Москве</h5>
+ </div>
+  <div class="border otvet3_2 text-center" >
+ 	<h5>3)В америке  </h5>
+ </div>
+ <p class="text-right mt-2">Очки: 20</p>
+</div>
+		
+
+
+ <div  style="display: none; " class="vopros32">
+	<div >
+ 	 <h1 class="text-center ">какой нормальный рост у человека ?</h1>
+ </div>
+ <div class="border otvet1_3 text-center ">
+ 	<h5>1)170</h5>
+ </div>
+  <div class="border otvet2_3 text-center">
+ 	<h5>2)220</h5>
+ </div>
+  <div class="border otvet3_3 text-center" >
+ 	<h5>3)140 </h5>
+ </div>
+ <p class="text-right mt-2">Очки: 30</p>
+</div>
+
+
+
+<div  style="display: none; " class="vopros33">
+	<div class="text-center">
+ 	 <img src="images.jpg" >
+ 	 <h1>что за фильм?</h1>
+ </div>
+ <div class="border otvet1_4 text-center ">
+ 	<h5>1)большая типа обезьяна </h5>
+ </div>
+  <div class="border otvet2_4 text-center">
+ 	<h5>2)бэтмен</h5>
+ </div>
+  <div class="border otvet3_4 text-center" >
+ 	<h5>3)форсаж</h5>
+ </div>
+ <p class="text-right mt-2">Очки: 40</p>
+</div>
+
+ 
+<div  style="display: none; " class="vopros34">
+	<div class="text-center">
+	<h1>что за песня?</h1>
+ <audio controls>
+    <source src="Тима Белорусских - Мокрые Кроссы.mp3" type="audio/ogg; codecs=vorbis" >
+ </div>
+ <div class="border otvet1_5 text-center ">
+ 	<h5>1)мой калашников</h5>
+ </div>
+  <div class="border otvet2_5 text-center">
+ 	<h5>2)мокрые кроссы</h5>
+ </div>
+  <div class="border otvet3_5 text-center" >
+ 	<h5>3)незабудка</h5>
+ </div>
+ <p class="text-right mt-2">Очки: 50</p>
+</div>
+
+
+<div  style="display: none; " class="vopros35">
+	<div class="text-center">
+	<h1>угадай песню по видео?</h1>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/VYOjWnS4cMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ <div class="border otvet1_6 text-center ">
+ 	<h5>1)despasito</h5>
+ </div>
+  <div class="border otvet2_6 text-center">
+ 	<h5>2)Childish Gambino - This Is America</h5>
+ </div>
+  <div class="border otvet3_6 text-center" >
+ 	<h5>3)bitch lasagna</h5>
+ </div>
+ <p class="text-right mt-2" >Очки: 60</p>
+</div>
+
+
+
+<script type="text/javascript">
+
+	//1
+	document.querySelector(".otvet1").onclick = function(){
+		alert("ты лох ")
+	};
+
+	document.querySelector(".otvet2").onclick = function(){
+		alert("ты тупой ")
+	};
+
+	document.querySelector(".otvet3").onclick = function(){
+		alert("это правильный ответ!!!но это не точно")
+		document.querySelector(".vopros1").style.display="none"
+		document.querySelector(".vopros2").style.display="block"
+	};
+
+
+//2
+	document.querySelector(".otvet1_1").onclick = function(){
+		alert("ты лох ")
+				document.querySelector(".vopros2").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+	};
+	document.querySelector(".otvet2_1").onclick = function(){
+		alert("ты самый умный !!!!ввваааууууу, лох ")
+		document.querySelector(".vopros2").style.display="none"
+		document.querySelector(".vopros31").style.display="block"
+	};	
+		document.querySelector(".otvet3_1").onclick = function(){
+		alert("ты тупой ")
+				document.querySelector(".vopros2").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+	};
+
+	//3
+	document.querySelector(".otvet1_2").onclick = function(){
+		alert("ты эйштенй!!!")
+				document.querySelector(".vopros31").style.display="none"
+		document.querySelector(".vopros32").style.display="block"
+		
+	};
+	document.querySelector(".otvet2_2").onclick = function(){
+		alert("ты тупой ")
+				document.querySelector(".vopros31").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+	};
+	document.querySelector(".otvet3_2").onclick = function(){
+		alert("учи географию")
+						document.querySelector(".vopros31").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+//4
+	document.querySelector(".otvet1_3").onclick = function(){
+		alert("иди за гугли")
+						document.querySelector(".vopros32").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+	document.querySelector(".otvet2_3").onclick = function(){
+		alert("ты тупой ")
+						document.querySelector(".vopros32").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+	};
+	document.querySelector(".otvet3_3").onclick = function(){
+		alert("кросава")
+		document.querySelector(".vopros32").style.display="none"
+		document.querySelector(".vopros33").style.display="block"
+		
+	};
+//5
+	document.querySelector(".otvet1_4").onclick = function(){
+		alert("да ты киноман, шутка хахахахахахах")
+		document.querySelector(".vopros33").style.display="none"
+		document.querySelector(".vopros34").style.display="block"
+	};
+	document.querySelector(".otvet2_4").onclick = function(){
+		alert("у тебя мозга нет ")
+								document.querySelector(".vopros33").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+	};
+	document.querySelector(".otvet3_4").onclick = function(){
+		alert("подумай еще раз")
+								document.querySelector(".vopros33").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+//6
+	document.querySelector(".otvet1_5").onclick = function(){
+		alert("у тебя слуха нет")
+				document.querySelector(".vopros34").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+	document.querySelector(".otvet2_5").onclick = function(){
+		alert("ты все равно лох , правильно ")
+		document.querySelector(".vopros34").style.display="none"
+		document.querySelector(".vopros35").style.display="block"
+	};
+	document.querySelector(".otvet3_5").onclick = function(){
+		alert("ты случайно не глухой?")
+	document.querySelector(".vopros34").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+//7
+	document.querySelector(".otvet1_6").onclick = function(){
+		alert("ты слепой")
+			document.querySelector(".vopros35").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+	document.querySelector(".otvet2_6").onclick = function(){
+		alert("ты угадал ты теперь не лох")
+
+	};
+	document.querySelector(".otvet3_6").onclick = function(){
+		alert("смотри внимательно")
+					document.querySelector(".vopros35").style.display="none"
+		document.querySelector(".vopros1").style.display="block"
+		
+	};
+
+
+
+</script>
+</body>
+</html>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
